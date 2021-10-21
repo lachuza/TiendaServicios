@@ -77,7 +77,7 @@ namespace TiendaServicios.Api.Libro.Tests
 
         [Fact]
         public async void GetLibros() {
-            System.Diagnostics.Debugger.Launch();
+            
             //1.emular entityframework core - ContextoLibreria
             var mockContexto = CrearContexto();
 
